@@ -14,8 +14,9 @@ new OrbitControls(camera, renderer.domElement);
 
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial({
-	color: 0x00ff00,
+	color: 0xff0000,
 	wireframe: true,
+	//  red hex color code 0xff0000
 });
 
 const cube = new THREE.Mesh(geometry, material);
